@@ -13,7 +13,7 @@ class ExpensesList extends StatelessWidget {
     return ListView.builder(
       itemCount: expenses.length,
       itemBuilder:(context, index){
-      ExpenseItem(expenses[index]);
+      return ExpenseItem(expenses[index]);
     },);
   }
 }
